@@ -180,26 +180,27 @@ export default function Index() {
           <div className="mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
             <div className="px-4 py-6 pt-4">
               <h1 className="text-3xl font-bold leading-tight mb-4 text-black">
-                Posición y desplazamiento
+                Vector Velocidad y rapidez
               </h1>
               <p className="text-gray-700">
-                La posición y el desplazamiento son dos conceptos fundamentales
+                El vector velocidad y la rapidez son dos conceptos fundamentales
                 en la cinemática que nos permiten describir el movimiento de un
-                objeto en un instante determinado. La posición de un objeto es
-                la ubicación o localización del objeto en un sistema de
-                referencia en un momento dado. Es decir, la posición de un
-                objeto se refiere a su distancia y dirección con respecto a un
-                punto de referencia, como un origen de coordenadas. El
-                desplazamiento, por otro lado, se refiere al cambio en la
-                posición de un objeto desde un momento inicial hasta un momento
-                final. El desplazamiento se mide como la distancia y la
-                dirección entre la posición final y la posición inicial del
-                objeto. En resumen, la posición se refiere a la ubicación actual
-                de un objeto en un instante de tiempo determinado, mientras que
-                el desplazamiento describe el cambio en la posición de un objeto
-                entre dos instantes de tiempo diferentes. Ambos conceptos son
-                fundamentales para entender y describir el movimiento de los
-                objetos en la cinemática.
+                objeto en términos de su velocidad. El vector velocidad es una
+                magnitud física que indica la tasa de cambio de la posición de
+                un objeto en el tiempo, es decir, la velocidad a la que se mueve
+                un objeto y su dirección. El vector velocidad se representa como
+                una flecha con una longitud proporcional a la magnitud de la
+                velocidad y una dirección que indica la dirección del
+                movimiento. La rapidez, por otro lado, es una magnitud física
+                escalar que indica la tasa de cambio de la posición de un objeto
+                en el tiempo, sin tener en cuenta la dirección del movimiento.
+                La rapidez se mide como la distancia recorrida por un objeto en
+                una unidad de tiempo. En resumen, el vector velocidad es una
+                magnitud vectorial que indica la velocidad y la dirección de
+                movimiento de un objeto, mientras que la rapidez es una magnitud
+                escalar que indica la velocidad de movimiento de un objeto sin
+                tener en cuenta su dirección. Ambos conceptos son fundamentales
+                para describir el movimiento de los objetos en la cinemática.
               </p>
               <div
                 className="mx-auto my-4 w-full"
