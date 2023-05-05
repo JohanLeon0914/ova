@@ -1,0 +1,17 @@
+[
+    {
+        "question": "What is the capital of France?",
+        "choices": ["Paris", "London", "New York"],
+        "answer": "Paris"
+    },
+    {
+        "question": "What is the largest planet in our solar system?",
+        "choices": ["Mars", "Jupiter", "Venus"],
+        "answer": "Jupiter"
+    },
+    {
+        "question": "What is the boiling point of water?",
+        "choices": ["100°C", "0°C", "50°C"],
+        "answer": "Paris"
+    }
+]

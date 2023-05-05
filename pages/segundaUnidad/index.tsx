@@ -2,6 +2,7 @@
 import Layout from "@/components/Layout";
 import Head from "next/head";
 import definitionsJson from "../../public/definitions.json";
+import Link from "next/link";
 
 interface Definitions {
   presentacion_segunda_unidad: string;
@@ -310,6 +311,39 @@ export default function Index() {
               >
                 Ir al quiz 2
               </a>
+            </div>
+          </div>
+        </section>
+        {/* Examen */}
+        <section className="py-10 pt-10">
+          <div className="mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
+            <div className="px-4 py-6 pt-4">
+              <h1 className="text-3xl font-bold leading-tight mb-4 text-black">
+                ¡Examen segunda unidad!
+              </h1>
+              <p className="text-gray-700">
+                El examen completo de Física Mecánica para la Unidad 2 incluirá
+                una evaluación de todos los temas abordados en esta unidad. Los
+                estudiantes pueden esperar preguntas que aborden la comprensión
+                y aplicación de estos temas, así como la capacidad para realizar
+                cálculos utilizando las fórmulas y ecuaciones relevantes.
+                Además, se puede evaluar la capacidad de los estudiantes para
+                analizar y resolver problemas utilizando el pensamiento crítico
+                y la aplicación de los conceptos aprendidos. Es importante que
+                los estudiantes se preparen para el examen estudiando y
+                revisando los temas de la unidad en profundidad, así como
+                practicando la resolución de problemas y la aplicación de las
+                fórmulas y ecuaciones relevantes. También se recomienda que los
+                estudiantes participen en discusiones en clase y trabajen en
+                ejercicios de práctica para fortalecer su comprensión de los
+                conceptos y su capacidad para aplicarlos.
+              </p>
+              <Link
+                href="/segundaUnidad/examen"
+                className="inline-block bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded"
+              >
+                Ir al examen
+              </Link>
             </div>
           </div>
         </section>
