@@ -23,7 +23,7 @@ const Quiz: React.FC = () => {
             setCurrentQuestion(nextQuestion);
         } else {
             Swal.fire({
-                title: `Quiz terminado. tu puntaje es ${score}/${questions.length}`,
+                title: `Examen terminado. tu puntaje es ${score}/${questions.length}`,
                 confirmButtonText: 'Ok',
               }).then((result) => {
                 if (result.isConfirmed) {

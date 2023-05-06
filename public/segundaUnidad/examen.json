@@ -1,17 +1,164 @@
 [
     {
-        "question": "What is the capital of France?",
-        "choices": ["Paris", "London", "New York"],
-        "answer": "Paris"
+        "question": "¿Qué es la Cinemática?",
+        "choices": [
+        "La rama de la física que se encarga del estudio del movimiento de los objetos sin tomar en cuenta las causas que lo producen", 
+        "La rama de la física que estudia el sonido y sus características",
+        "La rama de la física que se encarga del estudio de la electricidad y el magnetismo"
+        ],
+        "answer": "La rama de la física que se encarga del estudio del movimiento de los objetos sin tomar en cuenta las causas que lo producen"
     },
     {
-        "question": "What is the largest planet in our solar system?",
-        "choices": ["Mars", "Jupiter", "Venus"],
-        "answer": "Jupiter"
+        "question": "¿Qué es el desplazamiento?",
+        "choices": [
+            "La distancia total recorrida por un objeto en un intervalo de tiempo determinado",
+            "El cambio de posición de un objeto en un intervalo de tiempo determinado",
+            "La velocidad promedio de un objeto en un intervalo de tiempo determinado"
+        ],
+        "answer": "El cambio de posición de un objeto en un intervalo de tiempo determinado"
     },
     {
-        "question": "What is the boiling point of water?",
-        "choices": ["100°C", "0°C", "50°C"],
-        "answer": "Paris"
+        "question": "¿Qué es el vector velocidad?",
+        "choices": [
+            "El vector que indica la fuerza y dirección del movimiento de un objeto en un punto específico",
+            "El vector que indica la posición y dirección del movimiento de un objeto en un punto específico",
+            "El vector que indica la rapidez y dirección del movimiento de un objeto en un punto específico"
+        ],
+        "answer": "El vector que indica la rapidez y dirección del movimiento de un objeto en un punto específico"
+    },
+    {
+        "question": "¿Qué es el vector aceleración?",
+        "choices": [
+            "El vector que indica la fuerza neta y dirección del movimiento de un objeto en un punto específico",
+            "El vector que indica la tasa de cambio de la velocidad de un objeto en un punto específico",
+            "El vector que indica la posición y dirección del movimiento de un objeto en un punto específico"
+        ],
+        "answer": "El vector que indica la tasa de cambio de la velocidad de un objeto en un punto específico"
+    },
+    {
+        "question": "¿Qué tipos de movimiento existen en función del tiempo?",
+        "choices": [
+            "Movimiento uniforme, movimiento uniformemente acelerado y movimiento parabólico",
+            "Movimiento uniforme, movimiento uniformemente acelerado y movimiento circular",
+            " Movimiento horizontal, movimiento vertical y movimiento oblicuo"
+        ],
+        "answer": "Movimiento uniforme, movimiento uniformemente acelerado y movimiento parabólico"
+    },
+    {
+        "question": "Qué son las ecuaciones y condiciones iniciales en física",
+        "choices": [
+            "Las ecuaciones matemáticas que describen la temperatura de un objeto y las condiciones iniciales que deben ser conocidas para resolver dichas ecuaciones",
+            "Las ecuaciones matemáticas que describen el movimiento de un objeto y las condiciones iniciales que deben ser conocidas para resolver dichas ecuaciones",
+            "Las ecuaciones matemáticas que describen la presión de un objeto y las condiciones finales que deben ser conocidas para resolver dichas ecuaciones"
+        ],
+        "answer": "Las ecuaciones matemáticas que describen el movimiento de un objeto y las condiciones iniciales que deben ser conocidas para resolver dichas ecuaciones"
+    },
+    {
+        "question": "¿Qué es el análisis gráfico del movimiento de una partícula en 1D",
+        "choices": [
+            "La representación gráfica de la temperatura, presión y volumen de una partícula en una línea recta en función del tiempo",
+            "La representación gráfica de la posición, velocidad y aceleración de una partícula en un plano cartesiano en función del tiempo",
+            "La representación gráfica de la posición, velocidad y aceleración de una partícula en una línea recta en función del tiempo"
+        ],
+        "answer": "La representación gráfica de la posición, velocidad y aceleración de una partícula en una línea recta en función del tiempo"
+    },
+    {
+        "question": "¿Qué es la aceleración centripeta?",
+        "choices": [
+            "La aceleración que actúa sobre un objeto en un movimiento rectilíneo uniforme",
+            "La aceleración que mantiene un objeto en un movimiento circular al cambiar su dirección constantemente",
+            "La aceleración que hace que un objeto se aleje de su trayectoria circular."
+        ],
+        "answer": "La aceleración que mantiene un objeto en un movimiento circular al cambiar su dirección constantemente"
+    },
+    {
+        "question": "¿Qué es un movimiento parabólico?",
+        "choices": [
+            "Un movimiento en el cual un objeto se mueve en una trayectoria parabólica debido a la acción de la gravedad y su velocidad inicial",
+            "Un movimiento en el que un objeto se mueve en línea recta con velocidad constante",
+            "Un movimiento en el que un objeto se mueve en una trayectoria circular con velocidad variable"
+        ],
+        "answer": "Un movimiento en el cual un objeto se mueve en una trayectoria parabólica debido a la acción de la gravedad y su velocidad inicial"
+    },
+    {
+        "question": "¿Qué es el vector velocidad media?",
+        "choices": [
+            "El vector que representa la aceleración promedio de un objeto en un intervalo de tiempo determinado",
+            "El vector que indica la posición y dirección del movimiento de un objeto en un punto específico",
+            "El vector que representa la velocidad promedio de un objeto en un intervalo de tiempo determinado"
+        ],
+        "answer": " El vector que representa la velocidad promedio de un objeto en un intervalo de tiempo determinado"
+    },
+    {
+        "question": "¿Qué es la aceleración centripeta?",
+        "choices": [
+            "La aceleración dirigida hacia el centro de una trayectoria circular que mantiene a un objeto en su órbita",
+            "La aceleración que actúa en dirección opuesta al movimiento de un objeto",
+            "La aceleración que actúa sobre un objeto en caída libre debido a la gravedad"
+        ],
+        "answer": "La aceleración dirigida hacia el centro de una trayectoria circular que mantiene a un objeto en su órbita"
+    },
+    {
+        "question": "¿Qué es la rapidez media?",
+        "choices": [
+            "La velocidad instantánea de un objeto en un punto específico de su trayectoria",
+            "La distancia total recorrida por un objeto dividida por el tiempo transcurrido",
+            "La velocidad promedio de un objeto en un intervalo de tiempo determinado"
+        ],
+        "answer": " La distancia total recorrida por un objeto dividida por el tiempo transcurrido"
+    },
+    {
+        "question": "¿Qué es el movimiento circular uniforme?",
+        "choices": [
+            "Un movimiento en el que un objeto se mueve en una línea recta a velocidad constante",
+            "Un movimiento en el que un objeto se mueve en una trayectoria circular a velocidad constante",
+            "Un movimiento en el que un objeto se mueve en una trayectoria circular con velocidad variable"
+        ],
+        "answer": "Un movimiento en el que un objeto se mueve en una trayectoria circular a velocidad constante"
+    },
+    {
+        "question": "¿Qué es la posición inicial de un objeto en movimiento?",
+        "choices": [
+            "La posición del objeto en el momento en que se inicia la medición del movimiento",
+            "La posición del objeto en el momento en que alcanza su velocidad máxima",
+            "La posición del objeto en el momento en que se detiene"
+        ],
+        "answer": "La posición del objeto en el momento en que se inicia la medición del movimiento"
+    },
+    {
+        "question": "¿Cuál es la ecuación para el movimiento rectilíneo uniforme?",
+        "choices": [
+            "v = v0 + at, donde v0 es la velocidad inicial, a es la aceleración y t es el tiempo",
+            "x = x0 + 1/2at^2, donde a es la aceleración y t es el tiempo",
+            "x = x0 + vt, donde x es la posición final, x0 es la posición inicial, v es la velocidad y t es el tiempo"
+        ],
+        "answer": "x = x0 + vt, donde x es la posición final, x0 es la posición inicial, v es la velocidad y t es el tiempo"
+    },
+    {
+        "question": "¿Qué es la posición inicial de un objeto en movimiento?",
+        "choices": [
+            "La posición del objeto en el momento en que se inicia la medición del movimiento",
+            "La posición del objeto en el momento en que alcanza su velocidad máxima",
+            "La posición del objeto en el momento en que se detiene"
+        ],
+        "answer": "La posición del objeto en el momento en que se inicia la medición del movimiento"
+    },
+    {
+        "question": "¿Qué es el movimiento rectilíneo uniforme acelerado?",
+        "choices": [
+            "Es un movimiento en el que la dirección de la velocidad cambia constantemente en el tiempo",
+            "Es un movimiento en línea recta en el que la velocidad es constante en el tiempo",
+            "Es un movimiento en línea recta en el que la velocidad varía de forma constante en el tiempo"
+        ],
+        "answer": "Es un movimiento en línea recta en el que la velocidad varía de forma constante en el tiempo"
+    },
+    {
+        "question": "¿Qué tipo de movimiento tiene un objeto cuando su aceleración es constante?",
+        "choices": [
+            "Movimiento uniforme",
+            "Movimiento uniformemente acelerado",
+            "Movimiento parabólico"
+        ],
+        "answer": "Movimiento uniformemente acelerado"
     }
 ]
