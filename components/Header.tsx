@@ -30,7 +30,7 @@ function Navbar() {
     <div className={`fixed w-full h-20 z-[100] ${isScrolled && "shadow-xl bg-[#141414]" }`}>
       <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
         <Link href='#home'>
-          <Image src="/assets/logo.png" alt="/" width="85" height="50" />
+          <Image src="/images/logo_ova_png.png" alt="/" width="85" height="50" />
         </Link>
         <div>
           <ul className="hidden md:flex">
@@ -75,7 +75,7 @@ function Navbar() {
           <div>
             <div className="flex w-full items-center justify-between">
               <Link href='/'>
-                <Image src="/assets/logo.png" alt="/" width="47" height="25" />
+                <Image src="/images/logo_ova_png.png" alt="/" width="47" height="25" />
               </Link>
               <div
                 onClick={handleNav}
