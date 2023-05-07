@@ -26,7 +26,7 @@ export default function Index() {
   return (
     <Layout>
       <Head>
-        <title>Unidad-2</title>
+        <title>Unidad-2 | OVA-Física Mecánica</title>
       </Head>
 
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
