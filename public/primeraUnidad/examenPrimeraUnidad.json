@@ -1,0 +1,155 @@
+[
+    {
+        "question": "¿Cuál es la diferencia entre cinemática y dinámica en la mecánica clásica?",
+        "choices": [
+        "La cinemática se enfoca en el estudio de las fuerzas que causan el movimiento, mientras que la dinámica se enfoca en la descripción del movimiento sin preocuparse por las causas.", 
+        "La cinemática se enfoca en el estudio de la energía involucrada en el movimiento, mientras que la dinámica se enfoca en las causas que generan el movimiento",
+        "La cinemática se enfoca en la descripción del movimiento sin preocuparse por las causas que lo generan, mientras que la dinámica se enfoca en las causas que generan el movimiento."
+        ],
+        "answer": "La cinemática se enfoca en la descripción del movimiento sin preocuparse por las causas que lo generan, mientras que la dinámica se enfoca en las causas que generan el movimiento."
+    },
+    {
+        "question": "¿Cuál es el concepto que estudia la energía relacionada con la capacidad de los objetos para realizar trabajo en la mecánica clásica?",
+        "choices": [
+            "Cinemática",
+            "Energía",
+            "Trayectoria"
+        ],
+        "answer": "Energía"
+    },
+    {
+        "question": "¿Cuáles son los pasos principales del método científico aplicados a la física mecánica?",
+        "choices": [
+            "Observación, formulación de preguntas, planteamiento de hipótesis, experimentación, análisis de resultados, conclusión.",
+            "Planteamiento de hipótesis, observación, formulación de preguntas, experimentación, análisis de resultados, conclusión.",
+            "Observación, experimentación, formulación de preguntas, planteamiento de hipótesis, análisis de resultados, conclusión."
+        ],
+        "answer": "Observación, formulación de preguntas, planteamiento de hipótesis, experimentación, análisis de resultados, conclusión."
+    },
+    {
+        "question": "Según los pasos del método científico aplicados a la física mecánica, ¿cuál es el segundo paso después de la observación?",
+        "choices": [
+            "Formulación de preguntas.",
+            "Planteamiento de hipótesis.",
+            "Formulación de hipótesis"
+        ],
+        "answer": "Formulación de preguntas."
+    },
+    {
+        "question": "¿Cuál de los siguientes conceptos en física mecánica se considera un valor escalar?",
+        "choices": [
+            "Velocidad",
+            "Masa",
+            "Fuerza"
+        ],
+        "answer": "Masa"
+    },
+    {
+        "question": "¿Cuál de las siguientes magnitudes físicas se considera un valor escalar en el contexto de la física mecánica?",
+        "choices": [
+            "Velocidad",
+            "Fuerza",
+            "Tiempo"
+        ],
+        "answer": "Tiempo"
+    },
+    {
+        "question": "¿Cuál es la utilidad principal de los vectores libres en el espacio en la física mecánica?",
+        "choices": [
+            "Describir el movimiento de los objetos en el espacio.",
+            "Medir la distancia entre dos puntos en el espacio",
+            "Calcular la velocidad de un objeto en movimiento"
+        ],
+        "answer": "Describir el movimiento de los objetos en el espacio."
+    },
+    {
+        "question": " ¿Qué operaciones básicas se pueden realizar con vectores libres en el espacio?",
+        "choices": [
+            "Suma y resta de vectores",
+            "Multiplicación y división de vectores",
+            "Raíz cuadrada y potenciación de vectores"
+        ],
+        "answer": "Suma y resta de vectores"
+    },
+    {
+        "question": "¿Qué tipo de marco de referencia cumple de manera exacta la ley de Newton?",
+        "choices": [
+            "Marco de referencia no inercial",
+            "Marco de referencia inercial",
+            "Marco de referencia relativo"
+        ],
+        "answer": "Marco de referencia inercial"
+    },
+    {
+        "question": "¿Cuál es la función de las transformaciones de Galileo en la descripción del movimiento de un objeto en relación con otro objeto en movimiento?",
+        "choices": [
+            "Convertir las medidas de posición, velocidad y aceleración de un marco de referencia a otro",
+            "Determinar la magnitud y dirección de la velocidad relativa entre dos objetos",
+            "Establecer las leyes de la física en todos los marcos de referencia inerciales"
+        ],
+        "answer": "Convertir las medidas de posición, velocidad y aceleración de un marco de referencia a otro"
+    },
+    {
+        "question": "¿Qué es un marco de referencia inercial?",
+        "choices": [
+            "Un marco de referencia en el que la ley de Newton se cumple de manera exacta",
+            "Un sistema de coordenadas utilizado para describir el movimiento de un objeto en el espacio",
+            "Un conjunto de ecuaciones matemáticas utilizadas para convertir medidas de posición, velocidad y aceleración"
+        ],
+        "answer": "Un marco de referencia en el que la ley de Newton se cumple de manera exacta"
+    },
+    {
+        "question": "Cuál es la importancia del principio de relatividad en los marcos de referencia inerciales?",
+        "choices": [
+            "El principio de relatividad establece que los marcos de referencia inerciales son aquellos en los que se cumple la ley de Newton de manera exacta",
+            "El principio de relatividad establece que los marcos de referencia inerciales son los únicos válidos para describir el movimiento de los objetos",
+            "El principio de relatividad establece que los marcos de referencia inerciales son los más utilizados en la física mecánica"
+        ],
+        "answer": "El principio de relatividad establece que los marcos de referencia inerciales son aquellos en los que se cumple la ley de Newton de manera exacta"
+    },
+    {
+        "question": "¿Cuál es la función de las transformaciones de Galileo en los marcos de referencia en la física mecánica?",
+        "choices": [
+            "Las transformaciones de Galileo convierten las medidas de posición, velocidad y aceleración de un objeto de un marco de referencia a otro",
+            "Las transformaciones de Galileo determinan la velocidad relativa entre dos objetos en movimiento",
+            "Las transformaciones de Galileo establecen los sistemas de coordenadas más comunes utilizados en la física mecánica"
+        ],
+        "answer": "Las transformaciones de Galileo convierten las medidas de posición, velocidad y aceleración de un objeto de un marco de referencia a otro"
+    },
+    {
+        "question": "¿Cuál es la característica principal del sistema de coordenadas esféricas?",
+        "choices": [
+            "Se basa en tres ejes perpendiculares (x, y, z) para definir la posición de un objeto",
+            "Utiliza un radio (r), un ángulo polar (θ) y un ángulo azimutal (φ) para definir la posición de un objeto",
+            "Se utiliza principalmente para describir objetos con formas más complejas"
+        ],
+        "answer": "Utiliza un radio (r), un ángulo polar (θ) y un ángulo azimutal (φ) para definir la posición de un objeto"
+    },
+    {
+        "question": "¿Cuál es la diferencia principal entre el sistema de coordenadas cartesianas y el sistema de coordenadas cilíndricas?",
+        "choices": [
+            "El sistema de coordenadas cartesianas se utiliza para describir objetos con simetría esférica, mientras que el sistema de coordenadas cilíndricas se utiliza para objetos cilíndricos",
+            "El sistema de coordenadas cartesianas se basa en tres ejes perpendiculares (x, y, z), mientras que el sistema de coordenadas cilíndricas utiliza un radio (r), un ángulo (θ) y una coordenada z",
+            "El sistema de coordenadas cartesianas se utiliza para describir objetos con formas más complejas, mientras que el sistema de coordenadas cilíndricas se basa en coordenadas generalizadas"
+        ],
+        "answer": "El sistema de coordenadas cartesianas se basa en tres ejes perpendiculares (x, y, z), mientras que el sistema de coordenadas cilíndricas utiliza un radio (r), un ángulo (θ) y una coordenada z"
+    },
+    {
+        "question": "¿Cuál es la descripción correcta de los sistemas coordenados cartesianos R2 y R3?",
+        "choices": [
+            "En el sistema coordenado R2, los puntos se describen mediante dos valores numéricos (x, y) que se miden a lo largo de ejes paralelos entre sí. En el sistema coordenado R3, los puntos se describen mediante tres valores numéricos (x, y, z) que se miden a lo largo de ejes paralelos entre sí",
+            "En el sistema coordenado R2, los puntos se describen mediante tres valores numéricos (x, y, z) que se miden a lo largo de ejes perpendiculares entre sí. En el sistema coordenado R3, los puntos se describen mediante dos valores numéricos (x, y) que se miden a lo largo de ejes perpendiculares entre sí",
+            "En el sistema coordenado R2, los puntos se describen mediante dos valores numéricos (x, y) que se miden a lo largo de ejes perpendiculares entre sí. En el sistema coordenado R3, los puntos se describen mediante tres valores numéricos (x, y, z) que se miden a lo largo de ejes perpendiculares entre sí"
+        ],
+        "answer": "En el sistema coordenado R2, los puntos se describen mediante dos valores numéricos (x, y) que se miden a lo largo de ejes perpendiculares entre sí. En el sistema coordenado R3, los puntos se describen mediante tres valores numéricos (x, y, z) que se miden a lo largo de ejes perpendiculares entre sí"
+    },
+    {
+        "question": "¿Cuál es la utilidad de los sistemas de coordenadas cartesianos R2 y R3 en física y matemáticas?",
+        "choices": [
+            "Los sistemas de coordenadas cartesianos R2 y R3 se utilizan para describir la posición de objetos en dos y tres dimensiones, respectivamente",
+            "Los sistemas de coordenadas cartesianos R2 y R3 se utilizan para representar funciones matemáticas y gráficas en dos y tres dimensiones, respectivamente",
+            "Los sistemas de coordenadas cartesianos R2 y R3 se utilizan para calcular las derivadas y los límites de funciones matemáticas en dos y tres dimensiones, respectivamente"
+        ],
+        "answer": "Los sistemas de coordenadas cartesianos R2 y R3 se utilizan para describir la posición de objetos en dos y tres dimensiones, respectivamente"
+    }
+]
