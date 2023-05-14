@@ -195,7 +195,7 @@ export default function Index() {
           <div className="mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
             <div className="px-4 py-6 pt-4">
               <h1 className="text-3xl font-bold leading-tight mb-4 text-black">
-                ¡Examen segunda unidad!
+                ¡Examen primera unidad!
               </h1>
               <p className="text-gray-700">
                 El examen completo de Física Mecánica para la Unidad 1 incluirá
