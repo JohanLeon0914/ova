@@ -15,9 +15,39 @@ interface FirstUnitDefinitions {
   definicion_sistema_coordenadas_general: string;
   definicion_sistema_coordenado_r2_r3: string;
 }
+import { useEffect, useState } from "react";
+import { auth } from "../../firebaseconfig";
+import { onAuthStateChanged, User, signOut } from "firebase/auth";
+import Swal from "sweetalert2";
+import { signInWithPopup, GoogleAuthProvider } from "firebase/auth";
 
 export default function Index() {
   const definitions: FirstUnitDefinitions = firstUnitDefinitionsJson as FirstUnitDefinitions;
+  const [user, setUser] = useState<User | null>(null);
+  useEffect(() => {
+    const unsubscribe = onAuthStateChanged(auth, (user) => {
+      setUser(user);
+    });
+
+    return () => unsubscribe();
+  }, []);
+
+  const handleLogin = async () => {
+    const provider = new GoogleAuthProvider();
+    try {
+      // Inicia sesión con Google
+      await signInWithPopup(auth, provider);
+      Swal.fire({
+        icon: 'success',
+        title: '¡Sesión iniciada correctamente!',
+        text: 'Bienvenido'
+      });
+      Swal
+    } catch (error) {
+      console.error("Error al iniciar sesión", error);
+    }
+  };
+
   return (
     <Layout>
       <Head>
@@ -214,12 +244,21 @@ export default function Index() {
                 ejercicios de práctica para fortalecer su comprensión de los
                 conceptos y su capacidad para aplicarlos.
               </p>
-              <Link
-                href="/primeraUnidad/examen"
-                className="inline-block bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded"
-              >
-                Ir al examen
-              </Link>
+              {!user ? (
+                <button
+                  onClick={handleLogin}
+                  className="inline-block bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded"
+                >
+                  Logueate para presentar el examen
+                </button>
+              ) : (
+                <Link
+                  href="/primeraUnidad/examen"
+                  className="inline-block bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded"
+                >
+                  Ir al examen
+                </Link>
+              )}
             </div>
           </div>
         </section>
