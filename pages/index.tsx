@@ -1,8 +1,11 @@
 /* eslint-disable @next/next/no-img-element */
-import Navbar from "@/components/Header";
 import Layout from "@/components/Layout";
 import Head from "next/head";
 import Link from "next/link";
+import { useRouter } from 'next/router';
+import { useEffect, useState } from "react";
+import { auth } from "../firebaseconfig";
+import { onAuthStateChanged, User, signOut } from "firebase/auth";
 
 export default function Home() {
   return (
