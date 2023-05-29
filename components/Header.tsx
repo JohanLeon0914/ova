@@ -101,6 +101,16 @@ function Navbar() {
               </li>
             </Link>
             {user ? (
+              <Link href="/perfil">
+              <li className="ml-10 text-sm uppercase hover:border-b">
+                {" "}
+                Mi perfil{" "}
+              </li>
+            </Link>
+            ) : (
+              <div></div>
+            )}
+            {user ? (
               <li className="ml-10 text-sm uppercase hover:border-b">
                 <button onClick={handleLogout}>Cerrar sesión</button>
               </li>
@@ -181,6 +191,16 @@ function Navbar() {
                   Unidad 3{" "}
                 </li>
               </Link>
+              {user ? (
+              <Link href="/perfil">
+              <li onClick={() => setNav(false)} className="py-4 text-sm">
+                {" "}
+                Mi perfil{" "}
+              </li>
+            </Link>
+            ) : (
+              <div></div>
+            )}
               {user ? (
               <li className="py-4 text-sm">
                 <button onClick={handleLogout}>Cerrar sesión</button>

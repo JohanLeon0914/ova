@@ -5,7 +5,7 @@
 /* HTML, body, heading */
 @layer base {
   body {
-      @apply bg-[#141414] text-white !scrollbar-thin !scrollbar-track-transparent !scrollbar-thumb-red-600;
+      @apply bg-[#FF0000] text-white !scrollbar-thin !scrollbar-track-transparent !scrollbar-thumb-white;
   }
   header {
       @apply fixed top-0 z-50 flex w-full items-center justify-between

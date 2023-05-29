@@ -9,7 +9,7 @@ const Question: React.FC<Props> = (
     { question, choices, answer, onAnswer }) => {
     return (
         <div className="fixed inset-0 flex justify-center items-center">
-            <div className="bg-black p-6 rounded shadow-lg">
+            <div className="bg-white p-6 rounded shadow-lg text-black">
                 <h2 className="text-xl font-bold mb-4">{question}</h2>
                 <div className="">
                     {choices.map((choice, index) => (
