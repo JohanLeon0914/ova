@@ -100,6 +100,12 @@ function Navbar() {
                 Unidad 3{" "}
               </li>
             </Link>
+            <Link href="https://openchat.so/chat/1YgaAH4qnT7HQS2HY6rl">
+              <li className="ml-10 text-sm uppercase hover:border-b">
+                {" "}
+                Chatbot IA{" "}
+              </li>
+            </Link>
             {user ? (
               <Link href="/perfil">
               <li className="ml-10 text-sm uppercase hover:border-b">
@@ -189,6 +195,12 @@ function Navbar() {
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   {" "}
                   Unidad 3{" "}
+                </li>
+              </Link>
+              <Link href="https://openchat.so/chat/1YgaAH4qnT7HQS2HY6rl">
+                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                  {" "}
+                  Chatbot IA{" "}
                 </li>
               </Link>
               {user ? (
