@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Layout from "@/components/Layout";
 import Head from "next/head";
 import definitionsJson from "../../public/thirdUnitDefinitions.json";
