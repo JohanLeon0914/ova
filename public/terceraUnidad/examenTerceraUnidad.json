@@ -1,0 +1,147 @@
+[
+    {
+        "question": "¿Qué es el movimiento relativo?",
+        "choices": [
+        "El estudio del desplazamiento, la velocidad y la aceleración de un objeto.", 
+        "El análisis de la posición absoluta de un objeto.",
+        "El movimiento de un objeto sin referencia a otro objeto."
+        ],
+        "answer": "El estudio del desplazamiento, la velocidad y la aceleración de un objeto."
+    },
+    {
+        "question": "¿Qué es la posición relativa?",
+        "choices": [
+            "La ubicación absoluta de un objeto en el espacio.",
+            "La ubicación de un objeto en relación con el objeto de referencia.",
+            "La distancia recorrida por un objeto en un tiempo determinado."
+        ],
+        "answer": "La ubicación de un objeto en relación con el objeto de referencia."
+    },
+    {
+        "question": "¿Cómo se expresa la velocidad relativa?",
+        "choices": [
+            "En términos de la dirección del movimiento de un objeto.",
+            "En términos de cambio de posición por unidad de tiempo.",
+            "En términos de distancia recorrida por unidad de tiempo."
+        ],
+        "answer": "En términos de distancia recorrida por unidad de tiempo."
+    },
+    {
+        "question": "¿Qué es la aceleración relativa?",
+        "choices": [
+            "La tasa de cambio de posición de un objeto en relación con el objeto de referencia.",
+            "La tasa de cambio de velocidad de un objeto en relación con el objeto de referencia.",
+            "La tasa de cambio de dirección de un objeto en relación con el objeto de referencia."
+        ],
+        "answer": "La tasa de cambio de velocidad de un objeto en relación con el objeto de referencia."
+    },
+    {
+        "question": "¿Qué permite comprender el movimiento relativo?",
+        "choices": [
+            "Cómo cambian la posición, la velocidad y la aceleración de un objeto en función de su interacción relativa.",
+            "Cómo se relacionan las magnitudes físicas de un objeto.",
+            "Cómo se calcula la velocidad absoluta de un objeto."
+        ],
+        "answer": "Cómo cambian la posición, la velocidad y la aceleración de un objeto en función de su interacción relativa."
+    },
+    {
+        "question": "¿Qué es la masa?",
+        "choices": [
+            "Una propiedad física fundamental que determina la cantidad de materia en un objeto.",
+            "La resistencia de un objeto al cambio en su estado de movimiento.",
+            "La medida de la fuerza gravitacional que actúa sobre un objeto."
+        ],
+        "answer": "Una propiedad física fundamental que determina la cantidad de materia en un objeto."
+    },
+    {
+        "question": "¿La masa se conserva en sistemas aislados?",
+        "choices": [
+            "Sí, la masa se conserva en sistemas aislados.",
+            "No, la masa puede cambiar en sistemas aislados.",
+            "La conservación de la masa depende del tipo de sistema aislado."
+        ],
+        "answer": "Sí, la masa se conserva en sistemas aislados."
+    },
+    {
+        "question": "¿Qué es un cuerpo puntual en física?",
+        "choices": [
+            "Un objeto que tiene dimensiones físicas significativas en comparación con otras magnitudes relevantes en un sistema.",
+            "Un objeto que tiene dimensiones espaciales despreciables en comparación con otras magnitudes relevantes en un sistema.",
+            "Un objeto que carece de masa y posición en el espacio."
+        ],
+        "answer": "Un objeto que tiene dimensiones espaciales despreciables en comparación con otras magnitudes relevantes en un sistema."
+    },
+    {
+        "question": "¿Por qué se consideran los planetas como cuerpos puntuales en el estudio del sistema solar?",
+        "choices": [
+            "Debido a que su tamaño es irrelevante en el estudio del sistema solar.",
+            "Debido a que su tamaño es comparable con las distancias que los separan.",
+            "Debido a que su tamaño es insignificante en relación con las distancias que los separan."
+        ],
+        "answer": "Debido a que su tamaño es insignificante en relación con las distancias que los separan."
+    },
+    {
+        "question": "¿Cuál es la equivalencia aproximada entre la libra fuerza (lbf) y el newton (N)?",
+        "choices": [
+            "Aproximadamente 4.448 newtons.",
+            "Aproximadamente 9.80665 newtons.",
+            "Aproximadamente 32,174 pies por segundo al cuadrado."
+        ],
+        "answer": "Aproximadamente 4.448 newtons."
+    },
+    {
+        "question": "¿Cuál es la fuerza responsable de la atracción mutua entre objetos con masa?",
+        "choices": [
+            "Fuerza gravitatoria",
+            "Fuerza electromagnética",
+            "Fuerza nuclear fuerte"
+        ],
+        "answer": "Fuerza gravitatoria"
+    },
+    {
+        "question": "¿Cuál es la fuerza que actúa entre partículas cargadas eléctricamente?",
+        "choices": [
+            "Fuerza nuclear fuerte",
+            "Fuerza electromagnética",
+            "Fuerza nuclear débil"
+        ],
+        "answer": "Fuerza electromagnética"
+    },
+    {
+        "question": "¿Cuál es la primera ley de Newton?",
+        "choices": [
+            "Ley de la inercia",
+            "Ley de la fuerza y aceleración",
+            "Ley de acción y reacción"
+        ],
+        "answer": "Ley de la inercia"
+    },
+    {
+        "question": "¿Qué establece la primera ley de Newton?",
+        "choices": [
+            "Un objeto en movimiento continuará moviéndose a una velocidad constante.",
+            "Un objeto en reposo permanecerá en reposo, y un objeto en movimiento continuará moviéndose a una velocidad constante en línea recta.",
+            "Se utiliza principalmente para describir objetos con formas más complejas"
+        ],
+        "answer": "Un objeto en reposo permanecerá en reposo, y un objeto en movimiento continuará moviéndose a una velocidad constante en línea recta."
+    },
+    {
+        "question": "¿Qué implicación tiene un sistema inercial en términos de fuerzas y aceleraciones?",
+        "choices": [
+            "No hay fuerzas ficticias o aceleraciones aparentes causadas por el propio sistema de referencia.",
+            "No hay aceleraciones en un sistema inercial.",
+            "No hay fuerzas externas en un sistema inercial."
+        ],
+        "answer": "No hay fuerzas ficticias o aceleraciones aparentes causadas por el propio sistema de referencia."
+    },
+    {
+        "question": "¿Qué ley del movimiento de Newton se cumple en los sistemas inerciales de referencia?",
+        "choices": [
+            "Ley de la inercia",
+            "Ley de acción y reacción",
+            "Ley de la fuerza y aceleración"
+        ],
+        "answer": "Ley de la inercia"
+    }
+
+]
