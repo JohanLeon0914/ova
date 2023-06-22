@@ -5,21 +5,42 @@ import { User } from "firebase/auth";
 import { auth } from "../firebaseconfig";
 import Layout from "@/components/Layout";
 import { useRouter } from "next/router";
+import { getFirestore, collection, getDocs } from "firebase/firestore";
+import { firebaseApp } from "../firebaseconfig";
 
 interface Props {
+  docs: Doc[];
+}
+
+interface DocData {
+  email: string;
   notes: number[];
 }
 
+interface Doc {
+  id: string;
+  notes: number[];
+  email: string
+}
+
 export const getServerSideProps = async () => {
+  const db = getFirestore(firebaseApp);
+  const querySnapshot = await getDocs(collection(db, 'users'));
+  const docs: Doc[] = [];
+  querySnapshot.forEach((doc) => {
+    const data = doc.data() as DocData;
+    docs.push({ ...data, id: doc.id });
+  });
   return {
     props: {
-      notes: [3.2, 4.5, 0],
+      docs,
     },
   };
 };
 
-const ProfileTab = ({ notes }: Props) => {
+const ProfileTab = ({ docs }: Props) => {
   const [user, setUser] = useState<User | null>(null);
+  const [userNotes, setUserNotes] = useState<number[]>([]);
   const [loading, setLoading] = useState(true);
   const router = useRouter();
 
@@ -28,9 +49,12 @@ const ProfileTab = ({ notes }: Props) => {
       setUser(user);
       setLoading(false);
     });
-
+    const docWithMatchingEmail: Doc | undefined = docs.find((doc) => doc.email === user?.email);
+    if (docWithMatchingEmail) {
+      setUserNotes(docWithMatchingEmail.notes)
+    }
     return () => unsubscribe();
-  }, []);
+  }, [docs, user?.email]);
 
   if (loading) {
     return <p>Cargando...</p>;
@@ -57,7 +81,7 @@ const ProfileTab = ({ notes }: Props) => {
           <hr className="my-4 border-gray-300" />
           <h3 className="text-xl text-black font-bold text-center">Notas:</h3>
           <div>
-            {notes.map((note, index) => (
+            {userNotes.map((note, index) => (
               <p key={index} className="text-center text-black">
                 <b>Nota unidad {index + 1} </b>:{" "}
                 {note === 0 ? "Examen no presentado" : note}
