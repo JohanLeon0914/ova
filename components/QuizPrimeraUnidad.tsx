@@ -10,19 +10,20 @@ import {
   doc,
   updateDoc,
   getFirestore,
+  addDoc
 } from "firebase/firestore";
 import { firebaseApp } from "../firebaseconfig";
 import { auth } from "../firebaseconfig";
 
 interface DocData {
-  email: string;
+  email: string | null | undefined;
   notes: number[];
 }
 
 interface Doc {
   id: string;
   notes: number[];
-  email: string;
+  email: string | null | undefined;
 }
 
 const questions = questionsjson;
@@ -92,6 +93,24 @@ const Quiz: React.FC = () => {
         } catch (error) {
           console.error("Error al actualizar las notas:", error);
         }
+      } else {
+        const note = Math.round((score / questions.length) * 5);
+        let docData: DocData = {
+            email: user?.email,
+            notes: [note, 0, 0]
+        };
+        await addDoc(collection(db, "users"), {
+            ...docData
+        })
+        Swal.fire({
+          title: `Examen terminado. Tu puntaje es ${score}/${questions.length}`,
+          confirmButtonText: "Ok",
+        }).then((result) => {
+          if (result.isConfirmed) {
+            router.push("/primeraUnidad");
+          }
+        });
+          router.push("/primeraUnidad");
       }
     }
   };
