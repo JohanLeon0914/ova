@@ -77,7 +77,7 @@ const Quiz: React.FC = () => {
           const existingNotes = docWithMatchingEmail.notes; // Obtener el arreglo actual de notas
 
           // Actualizar la segunda posición del arreglo
-          existingNotes[1] = Math.round((score / questions.length) * 5);
+          existingNotes[1] = Number(((score / questions.length) * 5).toFixed(2));
           // Actualizar el documento en Firestore
           await updateDoc(docRef, { notes: existingNotes });
 
@@ -94,7 +94,7 @@ const Quiz: React.FC = () => {
           console.error("Error al actualizar las notas:", error);
         } 
       } else {
-        const note = Math.round((score / questions.length) * 5);
+        const note = Number(((score / questions.length) * 5).toFixed(2));
         let docData: DocData = {
             email: user?.email,
             notes: [0, note, 0]
