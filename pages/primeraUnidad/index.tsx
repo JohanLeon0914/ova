@@ -83,7 +83,7 @@ export default function Index() {
                 {definitions.definicion_mecanica_clasica}
               </p>
               <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Posici%C3%B3n_2D.svg/800px-Posici%C3%B3n_2D.svg.png"
+                src="https://3.bp.blogspot.com/--XsBwCsOLb0/VjUCcI04mmI/AAAAAAAAASM/1BEWK_IPw1Y/s1600/mecanica-de-newton.jpg"
                 alt="Cinematica"
                 className="mx-auto my-4"
               />
@@ -107,7 +107,7 @@ export default function Index() {
                 <iframe
                   width="100%"
                   height="450"
-                  src="https://www.youtube.com/embed/ojiMGOqwwCE"
+                  src="https://www.youtube.com/embed/zMYRU4S_RSk"
                   title="Video de YouTube"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -127,11 +127,20 @@ export default function Index() {
               <p className="text-gray-700">
                 {definitions.definicion_valores_escalares}
               </p>
-              <img
-                src="https://media.gcflearnfree.org/content/62da99e3c980ce07ac5e4723_07_22_2022/Desplazamiento-y-distancia-1.png"
-                alt="Posición y desplazamiento"
-                className="mx-auto my-4"
-              />
+              <div
+                className="mx-auto my-4 w-full"
+                style={{ maxWidth: "800px" }}
+              >
+                <iframe
+                  width="100%"
+                  height="450"
+                  src="https://www.youtube.com/embed/g2dEI__N4CI"
+                  title="Video de YouTube"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </div>
             </div>
           </div>
         </section>
@@ -145,6 +154,20 @@ export default function Index() {
               <p className="text-gray-700">
                 {definitions.definicion_vectores_libres_espacio}
               </p>
+              <div
+                className="mx-auto my-4 w-full"
+                style={{ maxWidth: "800px" }}
+              >
+                <iframe
+                  width="100%"
+                  height="450"
+                  src="https://www.youtube.com/embed/aAgloAlhX5Q"
+                  title="Video de YouTube"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </div>
             </div>
           </div>
         </section>
@@ -182,11 +205,20 @@ export default function Index() {
               <p className="text-gray-700">
                 {definitions.definicion_marcos_referencia}
               </p>
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Posici%C3%B3n_3D.svg/260px-Posici%C3%B3n_3D.svg.png"
-                alt="Posición y desplazamiento"
-                className="mx-auto my-4"
-              />
+              <div
+                className="mx-auto my-4 w-full"
+                style={{ maxWidth: "800px" }}
+              >
+                <iframe
+                  width="100%"
+                  height="450"
+                  src="https://www.youtube.com/embed/1Vd0bVYn9qE"
+                  title="Video de YouTube"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </div>
             </div>
           </div>
         </section>
@@ -201,6 +233,20 @@ export default function Index() {
              
                 {definitions.definicion_sistema_coordenadas_general}
               </p>
+              <div
+                className="mx-auto my-4 w-full"
+                style={{ maxWidth: "800px" }}
+              >
+                <iframe
+                  width="100%"
+                  height="450"
+                  src="https://www.youtube.com/embed/u25vkjeCrF4"
+                  title="Video de YouTube"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </div>
             </div>
           </div>
         </section>
@@ -215,6 +261,20 @@ export default function Index() {
               <p className="text-gray-700">
                 {definitions.definicion_sistema_coordenado_r2_r3}
               </p>
+              <div
+                className="mx-auto my-4 w-full"
+                style={{ maxWidth: "800px" }}
+              >
+                <iframe
+                  width="100%"
+                  height="450"
+                  src="https://www.youtube.com/embed/DTzTgbuvkn4"
+                  title="Video de YouTube"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </div>
         
             </div>
           </div>
