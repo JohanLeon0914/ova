@@ -82,11 +82,20 @@ export default function Index() {
               <p className="text-gray-700">
                 {definitions.definicion_movimiento_relativo}
               </p>
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Posici%C3%B3n_2D.svg/800px-Posici%C3%B3n_2D.svg.png"
-                alt="Cinematica"
-                className="mx-auto my-4"
-              />
+              <div
+                className="mx-auto my-4 w-full"
+                style={{ maxWidth: "800px" }}
+              >
+                <iframe
+                  width="100%"
+                  height="450"
+                  src="https://www.youtube.com/embed/zdDGwLwLA_c"
+                  title="Video de YouTube"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </div>
             </div>
           </div>
         </section>
@@ -107,7 +116,7 @@ export default function Index() {
                 <iframe
                   width="100%"
                   height="450"
-                  src="https://www.youtube.com/embed/ojiMGOqwwCE"
+                  src="https://www.youtube.com/embed/PP1orhr_MCA"
                   title="Video de YouTube"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -127,11 +136,20 @@ export default function Index() {
               <p className="text-gray-700">
                 {definitions.definicion_unidades_fuerza}
               </p>
-              <img
-                src="https://media.gcflearnfree.org/content/62da99e3c980ce07ac5e4723_07_22_2022/Desplazamiento-y-distancia-1.png"
-                alt="Posición y desplazamiento"
-                className="mx-auto my-4"
-              />
+              <div
+                className="mx-auto my-4 w-full"
+                style={{ maxWidth: "800px" }}
+              >
+                <iframe
+                  width="100%"
+                  height="450"
+                  src="https://www.youtube.com/embed/_zdNnsNzR3I"
+                  title="Video de YouTube"
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </div>
             </div>
           </div>
         </section>
@@ -152,7 +170,7 @@ export default function Index() {
                 <iframe
                   width="100%"
                   height="450"
-                  src="https://www.youtube.com/embed/75xi6aasdw4"
+                  src="https://www.youtube.com/embed/GJIRHzYOn1U"
                   title="YouTube video player"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 ></iframe>
@@ -170,7 +188,7 @@ export default function Index() {
                 <iframe
                   width="100%"
                   height="450"
-                  src="https://www.youtube.com/embed/if_ZS_ZVfl0"
+                  src="https://www.youtube.com/embed/NNz8zUSMUD8"
                   title="YouTube video player"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 ></iframe>
@@ -211,11 +229,18 @@ export default function Index() {
               <p className="text-gray-700">
                 {definitions.definicion_leyes_newton}
               </p>
-              <img
-                src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Posici%C3%B3n_3D.svg/260px-Posici%C3%B3n_3D.svg.png"
-                alt="Posición y desplazamiento"
-                className="mx-auto my-4"
-              />
+              <div
+                className="mx-auto my-4 w-full"
+                style={{ maxWidth: "800px" }}
+              >
+                <iframe
+                  width="100%"
+                  height="450"
+                  src="https://www.youtube.com/embed/m8NBT0SL5CA"
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                ></iframe>
+              </div>
             </div>
           </div>
         </section>
@@ -230,11 +255,18 @@ export default function Index() {
               <p className="text-gray-700">
                 {definitions.definicion_sistemas_masa_variable}
               </p>
-              <img
-                src="https://www.shutterstock.com/image-vector/handwritten-mathematic-equations-260nw-605416160.jpg"
-                alt="Posición y desplazamiento"
-                className="mx-auto my-4"
-              />
+              <div
+                className="mx-auto my-4 w-full"
+                style={{ maxWidth: "800px" }}
+              >
+                <iframe
+                  width="100%"
+                  height="450"
+                  src="https://www.youtube.com/embed/MolVR0U8Svg"
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                ></iframe>
+              </div>
             </div>
           </div>
         </section>
@@ -248,11 +280,18 @@ export default function Index() {
               <p className="text-gray-700">
                 {definitions.definicion_sistemas_inerciales_referencia}
               </p>
-              <img
-                src="https://oliverosacostajavier.files.wordpress.com/2012/10/320px-grafico_pva_del_mrua-svg.png"
-                alt="Posición y desplazamiento"
-                className="mx-auto my-4"
-              />
+              <div
+                className="mx-auto my-4 w-full"
+                style={{ maxWidth: "800px" }}
+              >
+                <iframe
+                  width="100%"
+                  height="450"
+                  src="https://www.youtube.com/embed/4Z-VZgGcX4g"
+                  title="YouTube video player"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                ></iframe>
+              </div>
             </div>
           </div>
         </section>
